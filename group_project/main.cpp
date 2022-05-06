@@ -84,7 +84,7 @@ int battle_sence(player*player,int level,string beast[],int beast_blood[],int be
     cout<<"you meet a "<<beast[level]<<endl<<endl;
 
     while(player->hp >0 && beast_hp >0){
-        cout<<"your HP : "<<player->hp<<"  Wepon : "<<player->wepon_name<<endl<<endl;
+        cout<<"your HP : "<<player->hp<<"  Weapon : "<<player->wepon_name<<endl<<endl;
         cout<<beast_name<<"'s HP : "<<beast_hp<<endl<<endl;
 
         int determine = paper_rock_scissors();
