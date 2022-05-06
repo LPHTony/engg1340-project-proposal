@@ -248,7 +248,7 @@ int main(){
      player->weapon_harm = 0;
      level(player,mode,beast,beast_blood,beast_kill);
 
-     delete player;
+
 
     
 
