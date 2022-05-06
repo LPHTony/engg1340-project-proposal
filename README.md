@@ -28,5 +28,5 @@ All varieables are readable and have suitable indentation
 5.In-code documentation
 All code and functions have have a in-code documentation to explain what it's do, input and ouput
 
-#Quick start
+# Quick start
 excute file have been provided for you. You can simply download it and run this program by using ./main command
