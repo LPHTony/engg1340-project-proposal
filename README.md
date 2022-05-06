@@ -29,4 +29,4 @@ All varieables are readable and have suitable indentation
 All code and functions have have a in-code documentation to explain what it's do, input and ouput
 
 # Quick start
-excute file have been provided for you. You can simply download it and run this program by using ./main command
+Excute file have been provided for you. You can simply download entire file and run this program by using ./main command after entering this file
