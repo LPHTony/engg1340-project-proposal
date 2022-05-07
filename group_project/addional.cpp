@@ -17,7 +17,7 @@ using namespace std;
 //Ouput: number of -1 to 1 the number indicate win,fair or lose for user
 //       Which can tell system and system will generate different result
 int paper_rock_scissors(){
-    char your_choice;
+    char your_choice,computer_choice;
     cout << "Please select following option to fight"  << endl;
     cout << "(r) for rock " <<  " (p) for paper"  << " (s) for scissors " << endl;
     cin >> your_choice;
@@ -29,9 +29,7 @@ int paper_rock_scissors(){
         cin >> your_choice;
     }
     
-    char computer_choice;
     srand(time(0));
-
     int num = rand() % 3 + 1;
     if(num==1){
         computer_choice = 'r';}
