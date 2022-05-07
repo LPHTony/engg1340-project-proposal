@@ -19,18 +19,20 @@ using namespace std;
 int paper_rock_scissors(){
     char your_choice,computer_choice;
     srand(time(0));
+    int num = rand() % 3 + 1;
+    
     cout << "Please select following option to fight"  << endl;
-    cout << "(r) for rock " <<  " (p) for paper"  << " (s) for scissors " << endl;
+    cout << "(r) for rock   (p) for paper   (s) for scissors " << endl;
     cin >> your_choice;
     
     while (your_choice!='r' && your_choice!='p' && your_choice!='s' )
     {
-        cout << "Please enter one of the following options only. " << endl;
-        cout << "(r) for rock " <<  " (p) for paper"  << " (s) for scissors " << endl;
+        cout << "Invaild input. Please enter it again ! " << endl;
+        cout << "(r) for rock   (p) for paper   (s) for scissors " << endl;
         cin >> your_choice;
     }
     
-    int num = rand() % 3 + 1;
+    
     if(num==1){
         computer_choice = 'r';}
     if(num==2) {
