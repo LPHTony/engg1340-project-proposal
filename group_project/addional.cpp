@@ -18,6 +18,7 @@ using namespace std;
 //       Which can tell system and system will generate different result
 int paper_rock_scissors(){
     char your_choice,computer_choice;
+    srand(time(0));
     cout << "Please select following option to fight"  << endl;
     cout << "(r) for rock " <<  " (p) for paper"  << " (s) for scissors " << endl;
     cin >> your_choice;
@@ -29,7 +30,6 @@ int paper_rock_scissors(){
         cin >> your_choice;
     }
     
-    srand(time(0));
     int num = rand() % 3 + 1;
     if(num==1){
         computer_choice = 'r';}
